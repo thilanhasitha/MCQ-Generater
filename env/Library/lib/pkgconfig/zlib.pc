@@ -1,0 +1,13 @@
+prefix=E:/AI/AI,ML Career/MCQ Generater/env/Library
+exec_prefix=E:/AI/AI,ML Career/MCQ Generater/env/Library
+libdir=E:/AI/AI,ML Career/MCQ Generater/env/Library/lib
+sharedlibdir=E:/AI/AI,ML Career/MCQ Generater/env/Library/lib
+includedir=E:/AI/AI,ML Career/MCQ Generater/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
